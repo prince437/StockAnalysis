@@ -1,0 +1,100 @@
+.body{
+     display: flex;
+  
+      display: flex;
+      flex-direction:column;
+     align-items: center;
+    height: 100%;
+    margin-top: 15vh;
+    overflow-y: auto
+}
+.content-section {
+    justify-content:center;
+    align-items: center;
+    padding: 20px;
+  }
+  .stock-view{
+    list-style: none;
+    padding: 0;
+    width: 53%;
+    margin: 12px auto;
+    max-height: 600px;
+    overflow-y: auto;
+  }
+  .chart{
+width: 50%;
+height: 50vh;
+
+  }
+  
+  .brand {
+    display: flex;
+    align-items: center;
+    margin:20px;
+  }
+  
+  .brand-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:
+  }
+  
+  .brand-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .search-bar {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .search{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .search-input {
+    display: flex;
+    align-items: center;
+    height: 7vh;
+    width: 60%; /* Adjust as per your requirement */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .search-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 2vh;
+  }
+  
+  .search-button:hover {
+    background-color: #0056b3;
+  }
+  .cardview{
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 5px,5px,5px,5px;
+    margin-top: 5px;
+    border-radius: 32px;
+    transition: 0.3s;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .cardview:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  

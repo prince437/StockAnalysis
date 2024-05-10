@@ -1,0 +1,51 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 30px;
+  }
+  .navbar-right {
+    display: flex;
+    justify-content: space-between;
+  }
+  .userName{
+    margin: 15px;
+  }
+  .navbar-left img {
+    width: 100px; /* Adjust as needed */
+  }
+  
+  .navbar-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .navbar-nav li {
+    margin-right: 20px;
+  }
+  
+  .navbar-nav li a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .navbar-nav li a:hover {
+    color: #ffcc00; /* Change color on hover */
+  }
+  
+  .login-btn {
+    background-color: #ffcc00;
+    color: #333;
+    padding: 8px 16px;
+    border-radius: 4px;
+    text-decoration: none;
+  }
+  
+  .login-btn:hover {
+    background-color: #ffb300; /* Change color on hover */
+  }
+  
