@@ -14,7 +14,7 @@ const Home = () => {
 
   const handleSearch = async () => {
     try {
-      const response = await fetch(`https://stockapi-production-facf.up.railway.app/api/products?SYMBOL=${query}`);
+      const response = await fetch(`http://localhost:5500/api/products?SYMBOL=${query}`);
       const data = await response.json();
       setResults(data.myData); // Accessing the myData property
     } catch (error) {
@@ -25,9 +25,6 @@ const Home = () => {
   return (
     
     <div className='body'>
-      <div className='chart'>
-        <TradingViewWidget/>
-      </div>
 
       <div className='content-section'>
         <div className='brand-logo'>
@@ -38,7 +35,7 @@ const Home = () => {
           <input type="text" placeholder="Search..." className="search-input" value={query} onChange={handleChange}/>
           <button onClick={handleSearch} className="search-button">Search</button>
         </div >
-       
+       {console.log(results)}
       </div>
 
       <div className="stock-view">
@@ -52,12 +49,18 @@ const Home = () => {
                 <p>Symbol: {item.SYMBOL}</p>
                 <p>Category: {item.CATEGORY}</p>
                 <p>Current Price: {item.CURRENT_PRICE}</p>
+                <p>52 Week High: {item.HIGH_52_WEEK}</p>
+              <a href={"https://magenta-arline-53.tiiny.site/"} target="_blank">Click here to view the full report</a>
               </li>
+              
             ))}
           </ul>
           </div>
         )}
         </div>
+        <div className='chart'>
+        <TradingViewWidget/>
+      </div>
     </div>
     
   );

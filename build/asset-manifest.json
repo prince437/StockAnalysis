@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.90954138.css",
-    "main.js": "/static/js/main.e2e87bb8.js",
-    "static/js/453.45e20507.chunk.js": "/static/js/453.45e20507.chunk.js",
-    "static/media/Brand_logo.png": "/static/media/Brand_logo.6dab634c29d47e11d9f7.png",
-    "index.html": "/index.html",
-    "main.90954138.css.map": "/static/css/main.90954138.css.map",
-    "main.e2e87bb8.js.map": "/static/js/main.e2e87bb8.js.map",
-    "453.45e20507.chunk.js.map": "/static/js/453.45e20507.chunk.js.map"
+    "main.css": "/StockAnalysis/static/css/main.e98d0950.css",
+    "main.js": "/StockAnalysis/static/js/main.e6d15de1.js",
+    "static/js/453.45e20507.chunk.js": "/StockAnalysis/static/js/453.45e20507.chunk.js",
+    "static/media/Brand_logo.png": "/StockAnalysis/static/media/Brand_logo.6dab634c29d47e11d9f7.png",
+    "index.html": "/StockAnalysis/index.html",
+    "main.e98d0950.css.map": "/StockAnalysis/static/css/main.e98d0950.css.map",
+    "main.e6d15de1.js.map": "/StockAnalysis/static/js/main.e6d15de1.js.map",
+    "453.45e20507.chunk.js.map": "/StockAnalysis/static/js/453.45e20507.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.90954138.css",
-    "static/js/main.e2e87bb8.js"
+    "static/css/main.e98d0950.css",
+    "static/js/main.e6d15de1.js"
   ]
 }
